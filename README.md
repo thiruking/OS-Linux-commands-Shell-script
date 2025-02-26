@@ -43,22 +43,27 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/d9115792-a641-4d2b-a0c1-0014f3eb5fbf)
 
 
 cat < file2
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/3ca163d8-30a2-437c-ba12-e13687a29ca0)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![image](https://github.com/user-attachments/assets/c8093300-6f99-45d0-8717-f2dbd70ea4d6)
+
 comm file1 file2
  ## OUTPUT
 
- 
+ ![image](https://github.com/user-attachments/assets/2174be19-cb8c-4153-b60e-79b093c4f3b9)
+
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/f7f367c5-211d-4222-80d2-59a1c6de64f6)
 
 
 #Filters
@@ -83,17 +88,20 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/ced3dd4e-7d25-4bfa-957a-0afaa3f522b0)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/2e4f615f-2d32-4c06-9948-115151fd5b0c)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/41e3adf9-4dd2-408c-8341-41058aff5a11)
 
 cat < newfile 
 ```
