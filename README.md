@@ -116,28 +116,33 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/4cd3a0b0-b70f-4ea1-adba-af5e8f5a4927)
 
 
 grep hello newfile 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/dff50da1-7ff9-468b-9e23-e4b58ac98cb4)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/b9d669ba-4fea-4d1c-9c70-016af75ed3cd)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
 
+![image](https://github.com/user-attachments/assets/daa7f638-752c-4f83-8f5d-c28b38f92e47)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/7198d8a8-d793-4896-b5c5-f19939cd653b)
 
 
 
@@ -149,6 +154,7 @@ grep -R ubuntu /etc
 grep -w -n world newfile   
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/2aa1c8fe-55b5-40a4-8147-f86e04710445)
 
 cat < newfile 
 ```
@@ -172,59 +178,71 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/e5030c89-2798-40b2-8a22-d3193415d9f0)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/7b308aed-06ff-446a-a094-5751212b85a3)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
 
+![image](https://github.com/user-attachments/assets/9313649f-84a2-4511-b4bc-0d37949d202e)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/72ca4055-6592-46c9-9f4d-6553d0b16000)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/5b9e8a4c-a004-4231-8e69-95862ff95e9e)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/766957b2-375d-4a18-98a3-02ed743fbac8)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/92191db4-290d-4ee9-92b5-00ebf0a23931)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/c174f391-2c92-4b9f-9e86-dd2d5372778d)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/cf5a2a53-b56a-4083-ac96-f688e3b6faaf)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/4668c11f-1fc7-408a-9f2f-380b70ccb0c7)
 
 
 egrep l{2} newfile
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/5696e10d-e601-44fc-bdcc-4639a5702962)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
 
+![image](https://github.com/user-attachments/assets/f7e93c7c-2c8e-4a59-a157-0ecc2da4efbf)
 
 cat > file23
 ```
