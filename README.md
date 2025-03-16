@@ -267,7 +267,8 @@ sed -n -e '3p' file23
 sed -n -e '$p' file23
 ## OUTPUT
 
-![image](https://github.com/user-attachments/assets/9a9c6c69-9a5d-4ba0-ab92-198cac993d13)
+![image](https://github.com/user-attachments/assets/aeec2a0f-4805-48f8-8d9b-ab6e90cdb285)
+
 
 
 sed  -e 's/Ram/Sita/' file23
