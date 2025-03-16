@@ -514,24 +514,34 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e3632616-6c65-4a4d-94ea-6498b6c561bb)
+
+![image](https://github.com/user-attachments/assets/1a650a1f-666c-4054-90d8-729536185a64)
 
  
 ls file1
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c4ffd8cc-4f2c-48e0-a64e-f22f739fe05b)
+
 
 echo $?
 ## OUTPUT 
-./one
-bash: ./one: Permission denied
+
+![image](https://github.com/user-attachments/assets/93e17c13-49c6-483e-966b-d99fc4b4b32f)
  
 echo $?
 ## OUTPUT 
+./file1
+bash: ./file1: Permission denied
+![image](https://github.com/user-attachments/assets/22ccaa13-591b-459e-8c1b-437217c19c0d)
+
  
 abcd
  
 echo $?
  ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/7f793372-65b8-449b-b65e-44a262e36815)
 
  
 # mis-using string comparisons
@@ -570,6 +580,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/30c6cc64-7ff1-4644-bffa-81f1efe5e5f0)
 
 
 # check file ownership
@@ -597,6 +608,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+
+![image](https://github.com/user-attachments/assets/60aa5cf4-00e4-4cee-bcfa-84185fa5a72a)
 
 # check if with file location
 cat>ifnested.sh 
@@ -644,6 +657,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/2336c782-1466-4ef8-bc3a-56de0b8ad386)
 
 
 # using numeric test comparisons
@@ -687,6 +701,8 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+![image](https://github.com/user-attachments/assets/19d044b1-52d6-463f-b57b-0dfcd438614b)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -736,6 +752,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+![image](https://github.com/user-attachments/assets/2e8e3586-2b24-43ee-ac15-1985046445c5)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -765,6 +782,8 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/4c49abeb-e3de-48df-a83d-79a91e0d138e)
+
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -780,6 +799,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/937a8eef-ca85-4fe3-8bb2-3ccd40fe8e38)
 
 # using the case command
 cat >casecheck.sh 
@@ -799,7 +819,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+## OUTPUT
+ ![image](https://github.com/user-attachments/assets/588cc96b-1ba0-48f0-8c56-a6a9a254465e)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -814,8 +836,10 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+## OUTPUT
  
- 
+ ![image](https://github.com/user-attachments/assets/6c31faaa-0dd9-4feb-870d-8bdd3f0fcc99)
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -827,9 +851,11 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+ $ ./untiltest.sh
+ ## OUTPUT
  
- 
- 
+ ![image](https://github.com/user-attachments/assets/37efbfe1-4ecb-4796-a9b6-7bb0a8987b7f)
+
 cat forin1.sh 
 ```bash
 \#!/bin/bash
