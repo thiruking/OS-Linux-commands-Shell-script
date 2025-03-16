@@ -461,8 +461,10 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+ ![image](https://github.com/user-attachments/assets/fd1d24df-f1fd-4e76-867d-f643beb6fec8)
 
- 
+ ![image](https://github.com/user-attachments/assets/fc6babda-7d90-4ca5-a4da-67be6aed214b)
+
 cat << stop > herecheck.txt
 ```
 hello in this world
