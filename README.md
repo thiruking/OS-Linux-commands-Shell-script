@@ -428,20 +428,27 @@ mkdir backupdir
  
 mv backup.tar backupdir
  
-tar -tvf backup.tar
+tar -tvf backupdir/backup.tar
+
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/e6125baf-069d-4aad-89c7-339055a613c2)
 
-tar -xvf backup.tar
+tar -xvf backupdir/backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/fb360d39-c4a3-4c3e-8659-c3b73264fe2f)
 
-gzip backup.tar
+gzip backupdir/backup.tar
 
-ls .gz
+ls backupdir/
 ## OUTPUT
- 
-gunzip backup.tar.gz
+ ![image](https://github.com/user-attachments/assets/14b1159e-8ee9-457c-b3ab-0a55a054c644)
+ ![image](https://github.com/user-attachments/assets/396b50eb-90a1-4199-b1c2-9aea5b286f6f)
+
+
+gunzip backupdir/backup.tar.gz
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/60dceed6-de88-4bcb-aef8-497a64d62dd3)
 
  
 # Shell Script
