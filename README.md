@@ -320,10 +320,12 @@ seq 10 | sed -n '4,6p'
 
 
 
-seq 10 | sed -n '2,~4p'
+seq 10 | awk 'NR>=2 && (NR-2)%4==0' in parrot os
+
 ## OUTPUT
 
-![image](https://github.com/user-attachments/assets/2314240d-1c54-4ed2-b7f5-ec8fb328940b)
+![image](https://github.com/user-attachments/assets/416bfe40-4e1a-4a74-8be1-a082bf3848de)
+
 
 
 seq 3 | sed '2a hello'
