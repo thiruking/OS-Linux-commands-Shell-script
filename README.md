@@ -448,7 +448,8 @@ ls backupdir/
 
 gunzip backupdir/backup.tar.gz
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/60dceed6-de88-4bcb-aef8-497a64d62dd3)
+![image](https://github.com/user-attachments/assets/aec16fde-049f-4539-a470-2557344b2948)
+
 
  
 # Shell Script
